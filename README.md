@@ -34,8 +34,11 @@ Un juego educativo creado con Python que desafía al usuario a nombrar los 50 es
 
 ## 📁 Estructura del proyecto
 ├── blank_states_img.gif # Imagen base del mapa
+
 ├── 50_states.csv # CSV con los estados y sus coordenadas X/Y
+
 ├── main.py # Código principal del juego
+
 └── README.md
 
 ## 🚀 Cómo ejecutar
