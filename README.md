@@ -21,7 +21,7 @@ Un juego educativo creado con Python que desafía al usuario a nombrar los 50 es
 - Validación de respuestas repetidas
 - Detección de cancelación del juego
 - Escritura de nombres en coordenadas reales del mapa
-
+- Guarda en `states_to_learn.csv` los estados no adivinados
 ---
 
 ## 📦 Tecnologías usadas
@@ -36,6 +36,8 @@ Un juego educativo creado con Python que desafía al usuario a nombrar los 50 es
 ├── blank_states_img.gif # Imagen base del mapa
 
 ├── 50_states.csv # CSV con los estados y sus coordenadas X/Y
+
+├── states_to_learn.csv 
 
 ├── main.py # Código principal del juego
 
