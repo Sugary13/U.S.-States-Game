@@ -22,10 +22,9 @@ while correct_answers < 50:
     answer_state = screen.textinput(title= f"{correct_answers}/50 States Correct",
                                              prompt="What is another the state's name?")
     if not answer_state:
-        for state in guess_list:
-            states_list.remove(state)
-        df = pandas.DataFrame(states_list)
-        df.to_csv("states_to_learn.csv")
+        missing_states = [state for state in states_list if state not in guess_list]
+        df = pandas.DataFrame(missing_states)
+        df.to_csv("states_to_learn.csv", index=False, header=["State"])
         break
     else:
         answer_state = answer_state.title()
